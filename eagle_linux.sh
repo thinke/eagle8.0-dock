@@ -13,7 +13,7 @@ docker run -it --rm -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v $HOME/.Xauthority:/tmp/.Xauthority \
            -v /dev/snd:/dev/snd \
 	   -v $HOME/eagle-8:/home/eagle/eagle \
-	   -v $HOME/.eagle8-rc:/home/eagle/.eagle-rc \
+	   -v $HOME/.eagle8-rc:/home/eagle/.eaglerc \
            -v /dev/shm:/dev/shm \
     	   -v /etc/machine-id:/var/lib/dbus/machine-id \
            -v /run/user/$uid/pulse:/run/user/$uid/pulse \
